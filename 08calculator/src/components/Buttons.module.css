@@ -1,0 +1,21 @@
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+}
+
+.Button {
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.8);
+  background-color: rgb(18, 14, 14);
+  color: white;
+  border: none;
+}

@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.container{
+  border: 2px solid black;
+  min-height: fit-content;
+  min-width: fit-content;
+  border-radius: 5px;
+}
+
+.input{
+  padding: 1rem;
+  border-radius: 5px;
+  size: 5px;
+  width: 13rem;
+  color: black;
+}
+
+
+.kg-button {
+  min-width: 80px;
+}
+
+.kg-row {
+  margin: 10px 5px;
+}
