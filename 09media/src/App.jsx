@@ -15,7 +15,7 @@ function App() {
   const [selectedTab,setSelectedTab]=useState("Home");
   
   return (
-    
+ 
     <PostListProvider>
     <div className="appContainer">
     <Sidebar selectedTab={selectedTab} setSelectedTab={setSelectedTab} />

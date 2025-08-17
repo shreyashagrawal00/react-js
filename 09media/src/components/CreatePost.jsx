@@ -12,7 +12,7 @@ const CreatePost = () => {
   const tagsElement=useRef();
 
   const handleSumbit=(e)=>{
-    e.preventDefault;
+    e.preventDefault();
 
     const userId=userIdElement.current.value;
     const title=titleElement.current.value;
