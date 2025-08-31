@@ -1,12 +1,12 @@
 import { Children, useContext, useState } from "react";
-import { createContext } from "react";
+import { createContext , useEffect } from "react";
 
 
 const movieContext = createContext();
 
 export const useMovieContext =()=> useContext(movieContext);
 
-export const movieProvider = ({children}) =>{
+export const MovieProvider = ({children}) =>{
 
 const [favorites,setFavorites]=useState([]);
 
@@ -43,7 +43,6 @@ const value = {
 return <movieContext.Provider value={value}>
     {children}
 </movieContext.Provider>
-
 
 
 }
